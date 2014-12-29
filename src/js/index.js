@@ -1,4 +1,3 @@
-//require('./components/HelloWorldView.jsx');
-require('./components/CommentBox.jsx');
+require('./components/CommentBox');
 
 console.log('index.js started!');
