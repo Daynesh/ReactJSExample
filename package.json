@@ -1,0 +1,41 @@
+{
+  "name": "discoverygo-web",
+  "description": "discovery go tve prototype",
+  "version": "0.0.1",
+  "author": {
+    "name": "CCVonLewin",
+    "email": "carl_lewin@discovery.com",
+    "url": "http://local.host:3000"
+  },
+  "contributors": [
+    "Daynesh Mangal <Daynesh_Mangal@discovery.com>",
+    "Keith Whitney <keith_whitney@discovery.com>",
+    "Igor Brezac <igor_brezac@discovery.com>",
+    "Jason McClellan <Jason_McClellan@discovery.com>",
+    "Larry Rosen <larry_rosen@discovery.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discovery-digital/discoverygo-web.git"
+  },
+  "engines": {
+    "node": ">= 0.10.25"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^8.0.2",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "jshint-stylish": "^1.0.0",
+    "react": "^0.12.2",
+    "require-dir": "^0.1.0",
+    "rimraf": "^2.2.8",
+    "showdown": "^0.3.1",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
